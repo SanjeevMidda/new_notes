@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  width: 20vw;
+  height: 40vh;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+input{
+  border: 1px solid grey;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 50px;
+  width: 10vw;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.circle{
+  width: 3vw;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: orange;
+  margin-left: 10px;
+  position: absolute;
+  left: 690px;
+  top:170px;
+}
+
+.input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.task{
+  animation-name: opacity;
+  animation-duration: 1s;
+
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes opacity {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+img{
+  width: 7vw;
+  height: 7vh;
+  position: absolute;
+  top:600px;
+  left:780px
+  /* transform: rotate(-40deg); */
+}
+
+h3{
+  text-align: center;
+}
